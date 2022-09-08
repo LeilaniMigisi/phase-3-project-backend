@@ -1,4 +1,4 @@
 class Review < ActiveRecord::Base
-    belongs_to :airlines
+    belongs_to :books
     belongs_to :users
 end
